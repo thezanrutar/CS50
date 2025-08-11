@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <string.h>
 
-struct Person
+typeof struct
 {
   string name;
   string number;
-};
+} Person;
 
 int main(void)
 {
