@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <string.h>
 
-typedef struct
+struct Person
 {
   string name;
   string number;
-} person;
+};
 
 int main(void)
 {
@@ -25,7 +25,7 @@ int main(void)
   // printf("Not found\n");
   // return 1;
 
-  person people[3];
+  Person people[3];
 
   people[0].name = "David";
   people[0].number = "+1-617-495-1000";
